@@ -4,6 +4,7 @@ defmodule Practice.Calc do
     num
   end
 
+  #This assumes that there are spaces between operations and operands
   def calc(expr) do
     # This should handle +,-,*,/ with order of operations,
     # but doesn't need to handle parens.
